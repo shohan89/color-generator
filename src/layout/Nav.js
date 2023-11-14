@@ -16,9 +16,9 @@ const Nav = () => {
       }`}
     >
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center">
           {navbarLogo}
-        </a>
+        </Link>
 
         <div className="hidden w-full md:block md:w-auto" id="mobile-menu">
           <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium">
